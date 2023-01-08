@@ -3,6 +3,7 @@
 // the WPILib BSD license file in the root directory of this project.
 
 #include "Robot.h"
+#include "lib.h"
 
 #include <fmt/core.h>
 
@@ -12,6 +13,8 @@ void Robot::RobotInit() {
   m_chooser.SetDefaultOption(kAutoNameDefault, kAutoNameDefault);
   m_chooser.AddOption(kAutoNameCustom, kAutoNameCustom);
   frc::SmartDashboard::PutData("Auto Modes", &m_chooser);
+  int testvar = COOLSTUFF + 2;
+  char bi = funcdeclareation();
 }
 
 /**
