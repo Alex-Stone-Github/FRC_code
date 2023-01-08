@@ -1,5 +1,6 @@
 # FRC_code - Rock Solid Robotics - 4656
-This is the code for the FRC Robotics team I am on, Rock Solid Robotics.
+This is Rock Solid Robotics' "official" production and experimentation mass
+code repository.
 
 ![Logo](./doc/logo.png "Rock Solid Robotics")
 
