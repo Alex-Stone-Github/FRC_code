@@ -100,7 +100,7 @@ int main() {
             t = 0;
         }
         if (is_tracing) {
-            t += 0.0001;
+            t += 0.001;
         }
         // render --- 
         // background
@@ -139,7 +139,7 @@ int main() {
             SDL_RenderFillRect(renderer, &r);
         }
         // draw path
-        for (double i = 0; i < 1; i += 0.01) {
+        for (double i = 0; i < 1; i += 0.001) {
             SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
             Vector point = piecemeal(i);
             SDL_RenderDrawPoint(renderer, point.x, point.y);
